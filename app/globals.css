@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background-color: #0A0B0E;
+  color: #F5F5F7;
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  font-feature-settings: "cv11", "ss01", "ss03";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  border-color: #1F232C;
+}
+
+button {
+  font-family: inherit;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+  background: transparent;
+  color: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* Tabular numbers for any explicitly opted-in container */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
