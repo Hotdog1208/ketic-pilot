@@ -382,4 +382,3 @@ insert into room_events (property_id, room_number, room_type, floor, checkout_ti
 ((select id from new_property), '129', 'Double Queen', 3, '2026-05-22 10:02:00+00', '2026-05-22 13:14:13+00', 3.2, 2.08, 0.29, 0.21, '2026-05-22'),
 ((select id from new_property), '131', 'Double Queen', 4, '2026-05-22 10:15:00+00', '2026-05-22 23:15:43+00', 13.01, 8.46, 1.18, 0.85, '2026-05-22'),
 ((select id from new_property), '135', 'Double Queen', 4, '2026-05-22 09:05:00+00', '2026-05-22 13:37:55+00', 4.55, 2.96, 0.41, 0.3, '2026-05-22');
-Generated 335 events
